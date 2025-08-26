@@ -1,14 +1,11 @@
-//
-//  main.cpp
-//  CPP - Practice Projects
-//
-//  Created by Arnav Gupta on 26/08/2025.
-//
-
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+int main(){
+    
+    cout<<"Hello";
+    
+    
     return 0;
 }

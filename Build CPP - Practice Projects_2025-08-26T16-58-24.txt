@@ -1,0 +1,155 @@
+
+Showing Recent Messages
+
+Prepare build of project s
+
+ComputePackagePrebuildTargetDependencyGraph
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'CPP - Practice Projects' in project 'CPP - Practice Projects' (no dependencies)
+
+Building targets in dependency order
+
+Target dependency graph (1 target)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+Build description signature: d98a13a63e71b7b7c4b758442b260563
+Build description path: /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/XCBuildData/d98a13a63e71b7b7c4b758442b260563.xcbuilddata
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -x c++ -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -x c -c /dev/null
+
+CreateBuildDirectory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects.xcodeproj
+    builtin-create-build-directory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects.xcodeproj
+    builtin-create-build-directory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk /Users/mrarnav69/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.5-24F74-8254517eb8b97d462ccbc072ba9094c9.sdkstatcache
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -o /Users/mrarnav69/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.5-24F74-8254517eb8b97d462ccbc072ba9094c9.sdkstatcache
+
+CreateBuildDirectory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects.xcodeproj
+    builtin-create-build-directory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug
+
+CreateBuildDirectory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects.xcodeproj
+    builtin-create-build-directory /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects-7cacddb7c3561b1fa616160fde40a7c9-VFS/all-product-headers.yaml
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects.xcodeproj
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects-7cacddb7c3561b1fa616160fde40a7c9-VFS/all-product-headers.yaml
+
+
+Build target CPP - Practice Projects of project CPP - Practice Projects with configuration Debug
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.hmap (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.hmap
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.DependencyMetadataFileList (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-own-target-headers.hmap (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-project-headers.hmap (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-project-headers.hmap
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-generated-files.hmap (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-generated-files.hmap
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.DependencyStaticMetadataFileList (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/DerivedSources/Entitlements.plist (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/DerivedSources/Entitlements.plist
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+
+-target arm64-apple-macos15.5 '-std=gnu++20' -fmodules -fno-cxx-modules -gmodules '-fmodules-cache-path=/Users/mrarnav69/Library/Developer/Xcode/DerivedData/ModuleCache.noindex' '-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_DEBUG' -fpascal-strings -O0 -fno-common '-DDEBUG=1' -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -g -fvisibility-inlines-hidden -iquote '/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/CPP - Practice Projects-generated-files.hmap' '-I/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/CPP - Practice Projects-own-target-headers.hmap' '-I/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/CPP - Practice Projects-all-target-headers.hmap' -iquote '/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/CPP - Practice Projects-project-headers.hmap' -I/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug/include '-I/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/DerivedSources-normal/arm64' '-I/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/DerivedSources/arm64' '-I/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/DerivedSources' -F/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/CPP\ -\ Practice\ Projects.LinkFileList (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/CPP\ -\ Practice\ Projects.LinkFileList
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-all-target-headers.hmap (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-all-non-framework-target-headers.hmap (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    write-file /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects-all-non-framework-target-headers.hmap
+
+ProcessProductPackaging "" /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.xcent (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    
+    Entitlements:
+    
+    {
+    "com.apple.application-identifier" = "JRT62ZC8PC.";
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.xcent
+
+ProcessProductPackagingDER /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.xcent /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.xcent.der (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    /usr/bin/derq query -f xml -i /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.xcent -o /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/CPP\ -\ Practice\ Projects.xcent.der --raw
+
+CompileC /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-d7e9902a3636d1eab047080f235eb3dd.o /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects/main.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    
+    Using response file: /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /Users/mrarnav69/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.5-24F74-8254517eb8b97d462ccbc072ba9094c9.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/mrarnav69/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wquoted-include-in-framework-header -Werror\=deprecated-objc-isa-usage -Werror\=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Winfinite-recursion -Wmove -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wrange-loop-analysis -Wno-semicolon-before-method-body -Wunguarded-availability -index-store-path /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Index.noindex/DataStore @/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-d7e9902a3636d1eab047080f235eb3dd.d --serialize-diagnostics /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-d7e9902a3636d1eab047080f235eb3dd.dia -c /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects/main.cpp -o /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-d7e9902a3636d1eab047080f235eb3dd.o -index-unit-output-path /CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-d7e9902a3636d1eab047080f235eb3dd.o
+
+CompileC /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-4363a3d284f2baefe64e7d6f4cbec944.o /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects/Simple\ Job\ Eligibility\ Checker/main.cpp normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    
+    Using response file: /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp
+    
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /Users/mrarnav69/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx15.5-24F74-8254517eb8b97d462ccbc072ba9094c9.sdkstatcache -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -fno-color-diagnostics -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/mrarnav69/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wquoted-include-in-framework-header -Werror\=deprecated-objc-isa-usage -Werror\=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -Wno-sign-conversion -Winfinite-recursion -Wmove -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wrange-loop-analysis -Wno-semicolon-before-method-body -Wunguarded-availability -index-store-path /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Index.noindex/DataStore @/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/82b82416624d2658e5098eb0a28c15c5-common-args.resp -MMD -MT dependencies -MF /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-4363a3d284f2baefe64e7d6f4cbec944.d --serialize-diagnostics /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-4363a3d284f2baefe64e7d6f4cbec944.dia -c /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects/CPP\ -\ Practice\ Projects/Simple\ Job\ Eligibility\ Checker/main.cpp -o /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-4363a3d284f2baefe64e7d6f4cbec944.o -index-unit-output-path /CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/main-4363a3d284f2baefe64e7d6f4cbec944.o
+
+Ld /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug/CPP\ -\ Practice\ Projects normal (in target 'CPP - Practice Projects' from project 'CPP - Practice Projects')
+    cd /Users/mrarnav69/Documents/Roblox/CPP\ -\ Practice\ Projects
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -Xlinker -reproducible -target arm64-apple-macos15.5 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -O0 -L/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -L/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug -F/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -F/Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug -filelist /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/CPP\ -\ Practice\ Projects.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/CPP\ -\ Practice\ Projects_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP\ -\ Practice\ Projects.build/Debug/CPP\ -\ Practice\ Projects.build/Objects-normal/arm64/CPP\ -\ Practice\ Projects_dependency_info.dat -Xlinker -no_adhoc_codesign -o /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Products/Debug/CPP\ -\ Practice\ Projects
+
+duplicate symbol '_main' in:
+    /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/Objects-normal/arm64/main-4363a3d284f2baefe64e7d6f4cbec944.o
+    /Users/mrarnav69/Library/Developer/Xcode/DerivedData/CPP_-_Practice_Projects-cvbtnkgljhngpdclvysinupptotv/Build/Intermediates.noindex/CPP - Practice Projects.build/Debug/CPP - Practice Projects.build/Objects-normal/arm64/main-d7e9902a3636d1eab047080f235eb3dd.o
+ld: 1 duplicate symbols
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+
+1 duplicate symbols
+
+
+
+Build failed    26/08/2025, 16:58    0.8 seconds

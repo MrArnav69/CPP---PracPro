@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F52713622E5DC8AD00D546E7 /* CopyFiles */ = {
+		F52ED9012E5EBA0D00FF5933 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -19,19 +19,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F52713642E5DC8AD00D546E7 /* CPP - Practice Projects */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPP - Practice Projects"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simple Job Eligibility Checker"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		F52713662E5DC8AD00D546E7 /* CPP - Practice Projects */ = {
+		F52ED9042E5EBA0D00FF5933 /* Simple Job Eligibility Checker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "CPP - Practice Projects";
+			path = "Simple Job Eligibility Checker";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F52713612E5DC8AD00D546E7 /* Frameworks */ = {
+		F52ED9002E5EBA0D00FF5933 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,7 +44,7 @@
 		F527135B2E5DC8AD00D546E7 = {
 			isa = PBXGroup;
 			children = (
-				F52713662E5DC8AD00D546E7 /* CPP - Practice Projects */,
+				F52ED9042E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
 				F52713652E5DC8AD00D546E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,7 +52,7 @@
 		F52713652E5DC8AD00D546E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F52713642E5DC8AD00D546E7 /* CPP - Practice Projects */,
+				F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,26 +60,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F52713632E5DC8AD00D546E7 /* CPP - Practice Projects */ = {
+		F52ED9022E5EBA0D00FF5933 /* Simple Job Eligibility Checker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F527136B2E5DC8AD00D546E7 /* Build configuration list for PBXNativeTarget "CPP - Practice Projects" */;
+			buildConfigurationList = F52ED9072E5EBA0D00FF5933 /* Build configuration list for PBXNativeTarget "Simple Job Eligibility Checker" */;
 			buildPhases = (
-				F52713602E5DC8AD00D546E7 /* Sources */,
-				F52713612E5DC8AD00D546E7 /* Frameworks */,
-				F52713622E5DC8AD00D546E7 /* CopyFiles */,
+				F52ED8FF2E5EBA0D00FF5933 /* Sources */,
+				F52ED9002E5EBA0D00FF5933 /* Frameworks */,
+				F52ED9012E5EBA0D00FF5933 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				F52713662E5DC8AD00D546E7 /* CPP - Practice Projects */,
+				F52ED9042E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
 			);
-			name = "CPP - Practice Projects";
+			name = "Simple Job Eligibility Checker";
 			packageProductDependencies = (
 			);
-			productName = "CPP - Practice Projects";
-			productReference = F52713642E5DC8AD00D546E7 /* CPP - Practice Projects */;
+			productName = "Simple Job Eligibility Checker";
+			productReference = F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +91,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					F52713632E5DC8AD00D546E7 = {
+					F52ED9022E5EBA0D00FF5933 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -110,13 +110,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F52713632E5DC8AD00D546E7 /* CPP - Practice Projects */,
+				F52ED9022E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F52713602E5DC8AD00D546E7 /* Sources */ = {
+		F52ED8FF2E5EBA0D00FF5933 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -243,7 +243,7 @@
 			};
 			name = Release;
 		};
-		F527136C2E5DC8AD00D546E7 /* Debug */ = {
+		F52ED9082E5EBA0D00FF5933 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -253,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		F527136D2E5DC8AD00D546E7 /* Release */ = {
+		F52ED9092E5EBA0D00FF5933 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -275,11 +275,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F527136B2E5DC8AD00D546E7 /* Build configuration list for PBXNativeTarget "CPP - Practice Projects" */ = {
+		F52ED9072E5EBA0D00FF5933 /* Build configuration list for PBXNativeTarget "Simple Job Eligibility Checker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F527136C2E5DC8AD00D546E7 /* Debug */,
-				F527136D2E5DC8AD00D546E7 /* Release */,
+				F52ED9082E5EBA0D00FF5933 /* Debug */,
+				F52ED9092E5EBA0D00FF5933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,7 +2,22 @@
 using namespace std;
 
 int main(){
+    //Simple Job Eligibility Checker
+    /*
+     Eligibilty Criteria:
+     -Over 18 or 18.
+     -Under 57.
+     -If older than 55 retirement soon alert.
+     
+     Features:
+     -Calculates automatically how many years to wait if not 18 or above
+     -Detects mistakes of fake ages under 0
+     -Frank with the user
+     
+     Artitecture:
+     -Simple If-Else Structure with integration of Else If.
     
+     */
     int age;
     cout<<"Enter you age: ";
     cin>>age;

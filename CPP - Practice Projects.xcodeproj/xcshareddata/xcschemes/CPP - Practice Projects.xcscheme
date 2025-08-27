@@ -45,12 +45,21 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F52ED9022E5EBA0D00FF5933"
+            BuildableName = "Simple Job Eligibility Checker"
+            BlueprintName = "Simple Job Eligibility Checker"
+            ReferencedContainer = "container:CPP - Practice Projects.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
             BlueprintIdentifier = "F52713632E5DC8AD00D546E7"
             BuildableName = "CPP - Practice Projects"
             BlueprintName = "CPP - Practice Projects"
             ReferencedContainer = "container:CPP - Practice Projects.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -68,6 +77,15 @@
             ReferencedContainer = "container:CPP - Practice Projects.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F52713632E5DC8AD00D546E7"
+            BuildableName = "CPP - Practice Projects"
+            BlueprintName = "CPP - Practice Projects"
+            ReferencedContainer = "container:CPP - Practice Projects.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

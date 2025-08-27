@@ -16,10 +16,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F52ED90C2E5EBBD000FF5933 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simple Job Eligibility Checker"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52ED90E2E5EBBD000FF5933 /* Number Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Number Generator"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -28,10 +38,22 @@
 			path = "Simple Job Eligibility Checker";
 			sourceTree = "<group>";
 		};
+		F52ED90F2E5EBBD000FF5933 /* Number Generator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Number Generator";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F52ED9002E5EBA0D00FF5933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52ED90B2E5EBBD000FF5933 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				F52ED9042E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
+				F52ED90F2E5EBBD000FF5933 /* Number Generator */,
 				F52713652E5DC8AD00D546E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
+				F52ED90E2E5EBBD000FF5933 /* Number Generator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +106,28 @@
 			productReference = F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */;
 			productType = "com.apple.product-type.tool";
 		};
+		F52ED90D2E5EBBD000FF5933 /* Number Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52ED9122E5EBBD000FF5933 /* Build configuration list for PBXNativeTarget "Number Generator" */;
+			buildPhases = (
+				F52ED90A2E5EBBD000FF5933 /* Sources */,
+				F52ED90B2E5EBBD000FF5933 /* Frameworks */,
+				F52ED90C2E5EBBD000FF5933 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F52ED90F2E5EBBD000FF5933 /* Number Generator */,
+			);
+			name = "Number Generator";
+			packageProductDependencies = (
+			);
+			productName = "Number Generator";
+			productReference = F52ED90E2E5EBBD000FF5933 /* Number Generator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					F52ED9022E5EBA0D00FF5933 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F52ED90D2E5EBBD000FF5933 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -111,12 +160,20 @@
 			projectRoot = "";
 			targets = (
 				F52ED9022E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
+				F52ED90D2E5EBBD000FF5933 /* Number Generator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F52ED8FF2E5EBA0D00FF5933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52ED90A2E5EBBD000FF5933 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,6 +320,26 @@
 			};
 			name = Release;
 		};
+		F52ED9132E5EBBD000FF5933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRT62ZC8PC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F52ED9142E5EBBD000FF5933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRT62ZC8PC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -280,6 +357,15 @@
 			buildConfigurations = (
 				F52ED9082E5EBA0D00FF5933 /* Debug */,
 				F52ED9092E5EBA0D00FF5933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52ED9122E5EBBD000FF5933 /* Build configuration list for PBXNativeTarget "Number Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52ED9132E5EBBD000FF5933 /* Debug */,
+				F52ED9142E5EBBD000FF5933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

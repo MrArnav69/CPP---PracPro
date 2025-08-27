@@ -25,11 +25,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F52ED9172E5EC0F500FF5933 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simple Job Eligibility Checker"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52ED90E2E5EBBD000FF5933 /* Number Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Number Generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F52ED9192E5EC0F500FF5933 /* Student Grade Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Student Grade Calculator"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +51,11 @@
 		F52ED90F2E5EBBD000FF5933 /* Number Generator */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Number Generator";
+			sourceTree = "<group>";
+		};
+		F52ED91A2E5EC0F500FF5933 /* Student Grade Calculator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Student Grade Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -60,6 +75,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F52ED9162E5EC0F500FF5933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,6 +90,7 @@
 			children = (
 				F52ED9042E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
 				F52ED90F2E5EBBD000FF5933 /* Number Generator */,
+				F52ED91A2E5EC0F500FF5933 /* Student Grade Calculator */,
 				F52713652E5DC8AD00D546E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,6 +100,7 @@
 			children = (
 				F52ED9032E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
 				F52ED90E2E5EBBD000FF5933 /* Number Generator */,
+				F52ED9192E5EC0F500FF5933 /* Student Grade Calculator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +152,28 @@
 			productReference = F52ED90E2E5EBBD000FF5933 /* Number Generator */;
 			productType = "com.apple.product-type.tool";
 		};
+		F52ED9182E5EC0F500FF5933 /* Student Grade Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52ED91D2E5EC0F500FF5933 /* Build configuration list for PBXNativeTarget "Student Grade Calculator" */;
+			buildPhases = (
+				F52ED9152E5EC0F500FF5933 /* Sources */,
+				F52ED9162E5EC0F500FF5933 /* Frameworks */,
+				F52ED9172E5EC0F500FF5933 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F52ED91A2E5EC0F500FF5933 /* Student Grade Calculator */,
+			);
+			name = "Student Grade Calculator";
+			packageProductDependencies = (
+			);
+			productName = "Student Grade Calculator";
+			productReference = F52ED9192E5EC0F500FF5933 /* Student Grade Calculator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -141,6 +187,9 @@
 						CreatedOnToolsVersion = 16.4;
 					};
 					F52ED90D2E5EBBD000FF5933 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F52ED9182E5EC0F500FF5933 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
@@ -161,6 +210,7 @@
 			targets = (
 				F52ED9022E5EBA0D00FF5933 /* Simple Job Eligibility Checker */,
 				F52ED90D2E5EBBD000FF5933 /* Number Generator */,
+				F52ED9182E5EC0F500FF5933 /* Student Grade Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -174,6 +224,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F52ED90A2E5EBBD000FF5933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F52ED9152E5EC0F500FF5933 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,6 +397,26 @@
 			};
 			name = Release;
 		};
+		F52ED91E2E5EC0F500FF5933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRT62ZC8PC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F52ED91F2E5EC0F500FF5933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRT62ZC8PC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -366,6 +443,15 @@
 			buildConfigurations = (
 				F52ED9132E5EBBD000FF5933 /* Debug */,
 				F52ED9142E5EBBD000FF5933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52ED91D2E5EC0F500FF5933 /* Build configuration list for PBXNativeTarget "Student Grade Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F52ED91E2E5EC0F500FF5933 /* Debug */,
+				F52ED91F2E5EC0F500FF5933 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

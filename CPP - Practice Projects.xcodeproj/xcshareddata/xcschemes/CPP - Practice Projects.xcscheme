@@ -45,9 +45,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F52ED9022E5EBA0D00FF5933"
-            BuildableName = "Simple Job Eligibility Checker"
-            BlueprintName = "Simple Job Eligibility Checker"
+            BlueprintIdentifier = "F52ED90D2E5EBBD000FF5933"
+            BuildableName = "Number Generator"
+            BlueprintName = "Number Generator"
             ReferencedContainer = "container:CPP - Practice Projects.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
